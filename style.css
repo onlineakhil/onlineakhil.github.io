@@ -145,6 +145,7 @@ p {
     backdrop-filter: blur(10px);
     border: solid 1px #ffffff0f; 
     padding: 20px;
+    border-radius: 3px;
 }
 
 
