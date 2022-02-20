@@ -15,7 +15,7 @@ body{
     max-width: 1080px;
 }
 .section-spacing {
-    padding: 40px 10px;
+    padding: 20px 10px;
 }
 .home-hero-glow {
     top: 90%;
@@ -35,7 +35,7 @@ body{
     background-color: transparent;
 }
 .aj-navbar {
-    background-color: #030c1c;
+    background-color: #030c1ca9;
 }
 .navbar-nav {
     margin-left: auto;
@@ -57,7 +57,7 @@ body{
 }
 
 .hero-section {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -72,10 +72,20 @@ p {
 }
 
 .footer {
-    margin-top:50px;
-    background-color: #020914;
-    color: #8193b2;
+    /* margin-top:50px; */
+    background-color: #000000;
+    padding: 40px 0;
 }
+.text-1 {
+    color: #666666;
+} 
+.text-2 {
+    color: #fff;
+    font-size: 22px;
+} 
+.text-3 {
+    color: #666666;
+}   
 .btn-aj {
     background-image: linear-gradient(335deg,#5310af 0%,#0160f1 100%)!important;
     color: #ffffff!important;
@@ -95,3 +105,31 @@ p {
     font-size: 36px;
     color: #FFFFFF!important;
 }
+
+.dp {
+    display: table;
+}
+.dp a {
+    vertical-align: middle;
+    display: table-cell;
+}
+.dp img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.hero-section-bg {
+    background-color: #061327e8;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
