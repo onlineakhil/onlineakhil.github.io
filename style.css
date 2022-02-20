@@ -35,7 +35,7 @@ body{
     background-color: transparent;
 }
 .aj-navbar {
-    background-color: #030c1ca9;
+    /* background-color: #030c1ca9; */
     backdrop-filter: blur(10px);
 }
 .navbar-nav {
