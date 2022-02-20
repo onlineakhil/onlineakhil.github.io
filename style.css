@@ -157,10 +157,11 @@ p {
     } 
     .text-2 {
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
     } 
     .text-3 {
-        color: #666666;
+        padding: 0 10px;
+        font-size: 14px;
     }
  }
 
