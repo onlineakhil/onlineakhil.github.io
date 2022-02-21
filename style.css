@@ -131,9 +131,6 @@ p {
     60%{transform:rotate(0.0deg)}
     100%{transform:rotate(0.0deg)}
 }
-
-
-
 .btn-aj {
     background-image: linear-gradient(335deg,#5310af 0%,#0160f1 100%)!important;
     color: #ffffff!important;
@@ -278,7 +275,7 @@ p {
 }
 
 
-  /* // Small devices (landscape phones, 576px and below) */
+/* // Small devices (landscape phones, 576px and below) */
 @media (max-width: 576px) { 
     .footer {
         background-color: #000000;
