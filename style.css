@@ -274,7 +274,33 @@ p {
     margin:0;
 }
 
-
+/* Projects Page */
+.projects-header-section {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #030c1cd9;
+}
+.p-section-2 img {
+    width: 100%;
+}
+.p-section-3 img {
+    width: 100%;
+}
+.p-section-4 img {
+    width: 100%;
+}
+.p-section-5 img {
+    width: 100%;
+}
+.p-section-6 img {
+    width: 100%;
+}
+#ui-anim-vid {
+    width: 100% !important;
+}
+.bg-white {
+    background: white;
+}
 /* // Small devices (landscape phones, 576px and below) */
 @media (max-width: 576px) { 
     .footer {
@@ -294,11 +320,11 @@ p {
         padding: 0 10px;
         font-size: 14px;
     }
-    .header-section {
+    /* .header-section {
         padding-top: 80px;
-    }
+    } */
     .project-section {
-        padding: 0 20px;
+        padding: 20px;
     }
     .header-section {
         padding-top: 100px;
@@ -321,6 +347,12 @@ p {
     .contact-linkedin {
         font-size: 15px;
     }
+    .logo-img {
+        padding: 10px 0;
+    }
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -328,6 +360,7 @@ p {
     .project-section {
         padding: 0 20px;
     }
+    
  }
 
 /* // Large devices (desktops, 992px and up) */
