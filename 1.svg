@@ -1,0 +1,71 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <rect width="1024" height="1024" fill="url(#pattern0)"/>
+
+  <defs>
+    <pattern id="pattern0"
+             patternContentUnits="objectBoundingBox"
+             width="1" height="1">
+
+      <!-- Put ALL images here (img1, img2, img3, ...) -->
+      <g id="imageGroup">
+        <image id="img1"
+               width="512"
+               height="512"
+               preserveAspectRatio="none"
+               xlink:href="https://cdn-icons-png.flaticon.com/512/9131/9131521.png"/>
+
+        <image id="img2"
+               width="512"
+               height="512"
+               preserveAspectRatio="none"
+               xlink:href="https://cdn-icons-png.flaticon.com/512/9386/9386837.png"
+               style="display:none"/>
+
+        <!-- Example extra images (add more as needed) -->
+        <image id="img3"
+               width="512"
+               height="512"
+               preserveAspectRatio="none"
+               xlink:href="https://lh3.googleusercontent.com/a/ACg8ocLRcLRqxfmrT4UaPNqYTH9ki9wEdoacFhe9JVFbQ01K3oMmtP1RLg=s400-c"
+               style="display:none"/>
+
+        <image id="img4"
+               width="512"
+               height="512"
+               preserveAspectRatio="none"
+               xlink:href="https://cdn-icons-png.flaticon.com/512/9386/9386837.png"
+               style="display:none"/>
+      </g>
+
+      <!-- Tile the current image as a pattern -->
+      <use xlink:href="#imageGroup" transform="scale(0.000876562)"/>
+    </pattern>
+  </defs>
+
+  <!-- Generic JS: loops over ALL images inside #imageGroup -->
+  <script><![CDATA[
+    (function () {
+      var group = document.getElementById('imageGroup');
+      // get all <image> children inside the group
+      var images = group.getElementsByTagName('image');
+      var index = 0;
+
+      function showImage(i) {
+        for (var k = 0; k < images.length; k++) {
+          images[k].style.display = (k === i) ? 'inline' : 'none';
+        }
+      }
+
+      // initial state
+      showImage(index);
+
+      setInterval(function () {
+        index = (index + 1) % images.length; // loop 0..n-1
+        showImage(index);
+      }, 1000); // change every 1 second
+    })();
+  ]]></script>
+</svg>
